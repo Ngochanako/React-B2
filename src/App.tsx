@@ -8,7 +8,7 @@ import Parent_Product from './components/Parent_Product'
 import Parent_User from './components/Parent_User'
 import ListProduct from './components/ListProduct'
 import ListPost from './components/ListPost'
-
+import Apps from './components/Apps'
 export default function App() {
   return (
     <div>
@@ -20,6 +20,7 @@ export default function App() {
       <Parent_User />
       <ListPost />
       <ListProduct />
+      <Apps />
     </div>
   )
 }
